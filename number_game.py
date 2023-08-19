@@ -5,8 +5,6 @@ attempt = 0
 
 target_num = random.randint(1,100)
 
-
-
 while guess != target_num:
     guess = int(input("Guess the number: \n"))
     attempt = attempt + 1 
